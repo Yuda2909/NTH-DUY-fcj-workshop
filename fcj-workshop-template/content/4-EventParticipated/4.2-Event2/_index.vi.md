@@ -6,6 +6,8 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
+#  Automated Prompt Engineering
+
 ## Mục đích của sự kiện
 
 - Giới thiệu tầm quan trọng của Prompt Engineering trong việc tối ưu chất lượng đầu ra của các mô hình ngôn ngữ lớn.

@@ -6,6 +6,8 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
+#  Automated Prompt Engineering
+
 ## Event Objectives
 
 - Introduce the importance of Prompt Engineering in improving the output quality of Large Language Models.
