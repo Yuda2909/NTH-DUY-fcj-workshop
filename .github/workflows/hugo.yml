@@ -7,8 +7,8 @@ on:
 
 permissions:
   contents: write
-  pages: write      # <- Bổ sung quyền này để GitHub Pages hoạt động
-  id-token: write   # <- Bổ sung quyền này để xác thực an toàn
+  pages: write      # <- Quyền chạy GitHub Pages
+  id-token: write   # <- Xác thực bảo mật
 
 jobs:
   build-deploy:
@@ -18,7 +18,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # <--- BẮT BUỘC: Thêm dòng này để GitHub tự tải thư mục theme về máy ảo!
+          submodules: recursive  # <--- BẮT BUỘC: Dòng này giúp GitHub tự tải theme về giống dưới máy bạn
           fetch-depth: 0
 
       - name: Setup Hugo
