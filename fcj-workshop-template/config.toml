@@ -1,4 +1,4 @@
-baseURL = "[https://yuda2909.github.io/NTH-DUY-fcaj-workshop/]
+baseURL = "https://yuda2909.github.io/NTH-DUY-fcaj-workshop/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
