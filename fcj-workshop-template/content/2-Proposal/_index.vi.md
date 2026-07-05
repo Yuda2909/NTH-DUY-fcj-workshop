@@ -83,9 +83,10 @@ Amazon DynamoDB lưu trữ profile, wallet, merchant, store, product, table, act
 
 Kiến trúc này không yêu cầu Amazon EC2, custom VPC, NAT Gateway hoặc RDS vì hệ thống được thiết kế dựa trên các dịch vụ serverless được quản lý hoàn toàn.
 
-![AWS BILLO System Architecture](/images/2-Proposal/aws-billo-architecture.png)
+### 4. AWS BILLO System Architecture
 
----
+<img src="/images/yuda_2909.png" alt="AWS BILLO System Architecture" width="1300">
+
 
 ### Các dịch vụ AWS sử dụng
 
