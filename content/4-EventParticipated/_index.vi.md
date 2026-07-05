@@ -34,6 +34,16 @@ Thời gian: 09:00 ngày 06/06/2026
 
 Vai trò trong sự kiện: Người tham dự
 
+### [4.3 - Sự kiện 3: Cloud Skills & Confidence](4.3-Event-3/)
+
+Buổi chia sẻ củng cố quan điểm rằng chỉ đọc về các dịch vụ AWS là chưa đủ. Những công cụ như Cloud Quest và Floci giúp việc thực hành diễn ra trong môi trường ít rủi ro và ít tốn kém, từ đó giảm rào cản để sinh viên bắt đầu thử nghiệm với các workload cloud thực tế.
+
+Thời gian: 09:00 ngày 30/05/2026
+
+Địa điểm: Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+
+Vai trò trong sự kiện: Người tham dự
+
 ---
 
 ## Kiến thức học được

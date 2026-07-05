@@ -34,6 +34,16 @@ Location: 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Mi
 
 Role: Attendee
 
+### [4.3 - Event 3: Cloud Skills & Confidence](4.3-Event-3/)
+
+This session reinforced the idea that reading about AWS services is not enough. Tools like Cloud Quest and Floci make it possible to practice in a low-risk, low-cost environment, which lowers the barrier for students to start experimenting with real cloud workloads.
+
+Date & Time: 09:00, May 30, 2026
+
+Location: 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
+
+Role: Attendee
+
 
 ---
 
