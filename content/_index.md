@@ -35,7 +35,8 @@ chapter: false
 
   **Internship Duration:** From 17/04/2026 to 10/07/2026
 
-![Your profile picture](images/avatar.jpg)Report Content
+<img src="../images/avatar.jpg" alt="Your profile picture" width="1300">
+Report Content
 
 1. [Worklog](1-Worklog/)
 2. [Proposal](2-Proposal/)
