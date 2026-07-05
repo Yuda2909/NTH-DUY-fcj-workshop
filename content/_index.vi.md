@@ -36,7 +36,8 @@ chapter: false
   **Thời gian thực tập:** Từ 17/04/2026 đến 10/07/2026
 
 
-{{< figure src="images/avatar.jpg" alt="Your profile picture" width="300" >}}
+![Your profile picture](images/avatar.jpg)Report Content
+
 
 Nội dung báo cáo
 
