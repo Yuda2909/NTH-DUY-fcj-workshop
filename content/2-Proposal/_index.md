@@ -86,7 +86,41 @@ The architecture does not require Amazon EC2, custom VPC, NAT Gateway, or RDS be
 ### 4. AWS BILLO System Architecture
 
 <img src="/NTH-DUY-fcaj-workshop/images/yuda_2909.png" alt="AWS BILLO System Architecture" width="1300">
+1. User interacts with Flutter Mobile App
 
+2. App initiates sign-up / sign-in request
+
+3. Cognito App Client authenticates user with User Pool
+
+4. Cognito requests OTP delivery
+
+5. Cognito routes sign-up requests to User Pool
+
+6. Cognito triggers Post Confirmation event
+
+7. Lambda writes user profile data to DynamoDB
+
+8. SNS sends OTP SMS to User's phone
+
+9. Cognito User Pool issues JWT Tokens to App
+
+10. Cognito validates access permissions via Groups
+
+11. Admin approves/rejects merchant application
+
+12. App includes JWT Token in API requests header
+
+13. App calls API endpoints
+
+14. API Gateway routes requests to the correct Lambda domain function
+
+15. Lambda functions read/write data to DynamoDB
+
+16. App requests & receives S3 pre-signed URL
+
+17. App uploads images directly to S3 Bucket
+
+18. Lambda functions export operational logs to CloudWatch
 
 ### AWS Services Used
 

@@ -87,6 +87,41 @@ Kiến trúc này không yêu cầu Amazon EC2, custom VPC, NAT Gateway hoặc R
 
 <img src="/NTH-DUY-fcaj-workshop/images/yuda_2909.png" alt="AWS BILLO System Architecture" width="1300">
 
+1. Người dùng tương tác với Ứng dụng Di động Flutter
+
+2. Ứng dụng gửi yêu cầu đăng ký / đăng nhập
+
+3. Cognito App Client xác thực người dùng với User Pool
+
+4. Cognito gửi yêu cầu gửi mã OTP
+
+5. Cognito định tuyến yêu cầu đăng ký vào User Pool
+
+6. Cognito kích hoạt sự kiện Post Confirmation (sau khi xác nhận thành công)
+
+7. Lambda ghi dữ liệu hồ sơ người dùng vào DynamoDB
+
+8. SNS gửi tin nhắn SMS chứa mã OTP đến điện thoại người dùng
+
+9. Cognito User Pool cấp mã token JWT cho ứng dụng
+ 
+10. Cognito kiểm tra quyền truy cập thông qua các Nhóm (Groups)
+
+11. Admin phê duyệt hoặc từ chối hồ sơ đăng ký của Merchant
+
+12. Ứng dụng đính kèm token JWT vào tiêu đề (header) của các yêu cầu API
+
+13. Ứng dụng gọi các cổng API (endpoints)
+
+14. API Gateway định tuyến các yêu cầu đến đúng hàm Lambda xử lý nghiệp vụ
+
+15. Các hàm Lambda đọc và ghi dữ liệu vào DynamoDB
+
+16. Ứng dụng yêu cầu và nhận đường dẫn S3 Pre-signed URL
+
+17. Ứng dụng tải ảnh trực tiếp lên S3 Bucket
+
+18. Các hàm Lambda xuất nhật ký hoạt động (logs) sang CloudWatch
 
 ### Các dịch vụ AWS sử dụng
 
